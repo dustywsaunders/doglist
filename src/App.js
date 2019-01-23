@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import DogsList from './components/DogList';
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
           
         </header> */}
         <main>
-
+          <DogsList />
         </main>
       </div>
     );
